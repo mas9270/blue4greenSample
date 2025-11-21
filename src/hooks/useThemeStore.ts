@@ -1,20 +1,22 @@
-"use client"
+"use client";
 import { create } from "zustand";
 
 type ThemeMode = "light" | "dark" | null;
 
 interface ThemeState {
-  theme?: ThemeMode;
+  theme: ThemeMode;
   setTheme: (mode: ThemeMode) => void;
   toggleTheme: () => void;
 }
 
 export const useThemeStore = create<ThemeState>((set) => ({
-  theme: null,
+  theme: null, // مقدار اولیه null برای SSR
 
   setTheme: (mode) => {
-    if (mode) {
+    if (typeof window !== "undefined" && mode) {
       localStorage.setItem("app-theme", mode);
+      set({ theme: mode });
+    } else {
       set({ theme: mode });
     }
   },
@@ -22,7 +24,9 @@ export const useThemeStore = create<ThemeState>((set) => ({
   toggleTheme: () => {
     set((state) => {
       const newTheme: ThemeMode = state.theme === "light" ? "dark" : "light";
-      localStorage.setItem("app-theme", newTheme);
+      if (typeof window !== "undefined") {
+        localStorage.setItem("app-theme", newTheme);
+      }
       return { theme: newTheme };
     });
   },

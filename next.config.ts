@@ -2,21 +2,34 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   typescript: {
-    ignoreBuildErrors: true, // ارورهای TS رو در زمان build نادیده می‌گیره
+    ignoreBuildErrors: true,
   },
   images: {
-    domains: [
-      "aerius-images.s3.amazonaws.com",
-      "img.youtube.com", // برای تصاویر Thumbnail
-      "i.ytimg.com", // برخی URLهای دیگر Thumbnails یوتیوب
-      "aerius-images.s3.amazonaws.com",
-    ],
     remotePatterns: [
       {
         protocol: "https",
         hostname: "picsum.photos",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "aerius-images.s3.amazonaws.com",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "img.youtube.com",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "i.ytimg.com",
+        pathname: "/**",
       },
     ],
+  },
+  experimental: {
+    scrollRestoration: true,
   },
 };
 

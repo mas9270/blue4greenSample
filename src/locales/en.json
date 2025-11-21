@@ -18,6 +18,27 @@
   "treeIntelligence": "Tree Intelligence: Individual tree detection where imagery supports it; canopy cover mapping from satellites city-wide.",
   "irrigation": "Irrigation: Zone-level recommendations (≈3 m pixels) that combine vegetation stress via evapotranspiration, weather, and local context to keep green assets healthy.",
   "resilience": "Resilience: Vegetation vitality and drought-pressure indices to flag at-risk areas and monitor recovery.",
-  "euNatureLaw": "EU Nature Restoration Law: Consistent change detection, green-area accounting, biodiversity management, and exportable indicators to support reporting and compliance."
+  "euNatureLaw": "EU Nature Restoration Law: Consistent change detection, green-area accounting, biodiversity management, and exportable indicators to support reporting and compliance.",
+  "dataViewerTitle": "Data & Viewer",
+  "dataViewerText1": "Access, download, and visualize our open and subscription Earth Observation services and data. Get started by contacting our support team, registering your account, and placing your order.",
+  "dataViewerText2": "Try before you join!",
+  "dataViewerText3": "Use following direct demo login without prior registration to explore portal.",
+  "dataViewerCredentials": "Username: demo_user • Password: 000000",
 
+  "discoverTitle": "Discover use cases",
+  "coolStreets": "Cool the Hottest Streets: We detect heat hotspots and estimate near-surface air temperature to reveal where people face the greatest exposure. Results guide shade trees, cool materials, and misting stations, then track progress year over year.",
+  "saferLake": "Safer Summers by the Lake: We deliver water quality metrics trends for lakes, reservoirs, and slow rivers. Early warnings help you communicate risks, protect public health, and optimize maintenance and aeration.",
+  "irrigateMatters": "Irrigate What Matters: At ~3 m resolution, we prioritize zones that need water. You get a simple schedule and a map, so crews irrigate efficiently and timely.",
+  "shadeNeeded": "Shade Where People Need It: We quantify shade coverage by time of day and season using 3D surface models. Plan trees and structures where comfort gains are highest, especially along pedestrian routes and play areas.",
+  "treeCanopy": "Tree Canopy & Vitality: Citywide canopy and health indicators help plan pruning and replanting, with optional per-tree analytics from satellite imagery. Monitor storm impacts and recovery with consistent metrics.",
+  "riverCorridor": "River Corridor Stewardship: Track riparian vegetation condition and water quality to target restoration. Combine EO with local surveys for reporting that’s credible and repeatable.",
+  "playfields": "Playfields in Top Shape: Use stress indices and irrigation timing to maintain safe, resilient turf. Reduce closures and uneven wear with evidence-based scheduling.",
+  "euCompliance": "EU Nature Restoration Compliance: Automate green-area quantification, change detection, and biodiversity proxies that support NRL requirements. Export ready-to-attach maps and data.",
+  "droughtReadiness": "Drought Readiness: Spot vegetation trending toward stress before it turns brown. Direct mulch, irrigation, and species replacement budget where it will prevent losses.",
+  "equityCooling": "Equity-Focused Cooling: Combine exposure with demographic layers to design fair cooling strategies. Track whether investments reduce risk in priority neighborhoods.",
+  "greeningDevelopments": "Greening New Developments: Verify post-construction outcomes: canopy targets, shade at peak hours, and green-area net gains, using transparent EO evidence.",
+
+  "heatWaterMonitoring": "Heat & Water Monitoring",
+  "smartIrrigation": "Smart Irrigation",
+  "euNatureCompliance": "EU Nature Compliance"
 }

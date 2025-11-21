@@ -18,5 +18,27 @@
   "treeIntelligence": "Baum-Intelligenz: Einzelbaumerkennung, wo Bildmaterial dies unterstützt; Stadtweite Erfassung der Baumkronenabdeckung mittels Satelliten.",
   "irrigation": "Bewässerung: Empfehlungen auf Zonenniveau (≈3 m Pixel), die Vegetationsstress über Evapotranspiration, Wetter und lokalen Kontext kombinieren, um Grünflächen gesund zu halten.",
   "resilience": "Resilienz: Vegetationsvitalität und Dürrerisiko-Indizes zur Kennzeichnung gefährdeter Bereiche und zur Überwachung der Erholung.",
-  "euNatureLaw": "EU-Naturschutzgesetz: Konsistente Veränderungserkennung, Grünflächenbuchhaltung, Biodiversitätsmanagement und exportierbare Indikatoren zur Unterstützung von Berichterstattung und Compliance."
+  "euNatureLaw": "EU-Naturschutzgesetz: Konsistente Veränderungserkennung, Grünflächenbuchhaltung, Biodiversitätsmanagement und exportierbare Indikatoren zur Unterstützung von Berichterstattung und Compliance.",
+  "dataViewerTitle": "Daten & Viewer",
+  "dataViewerText1": "Greifen Sie auf unsere offenen und abonnierbaren Erdbeobachtungsdienste und -daten zu, laden Sie sie herunter und visualisieren Sie sie. Beginnen Sie, indem Sie unser Support-Team kontaktieren, Ihr Konto registrieren und Ihre Bestellung aufgeben.",
+  "dataViewerText2": "Probieren Sie es aus, bevor Sie beitreten!",
+  "dataViewerText3": "Verwenden Sie folgenden direkten Demo-Login ohne vorherige Registrierung, um das Portal zu erkunden.",
+  "dataViewerCredentials": "Benutzername: demo_user • Passwort: 000000",
+
+  "discoverTitle": "Anwendungsfälle entdecken",
+  "coolStreets": "Die heißesten Straßen kühlen: Wir erkennen Wärme-Hotspots und schätzen die Lufttemperatur in Bodennähe, um zu zeigen, wo Menschen am stärksten exponiert sind. Ergebnisse leiten Schattenbäume, Kühlmaterialien und Nebelstationen und verfolgen den Fortschritt Jahr für Jahr.",
+  "saferLake": "Sichere Sommer am See: Wir liefern Trends der Wasserqualitätskennzahlen für Seen, Stauseen und langsame Flüsse. Frühwarnungen helfen Ihnen, Risiken zu kommunizieren, die öffentliche Gesundheit zu schützen und Wartung und Belüftung zu optimieren.",
+  "irrigateMatters": "Wasser geben, wo es wichtig ist: Mit ~3 m Auflösung priorisieren wir Zonen, die Wasser benötigen. Sie erhalten einen einfachen Zeitplan und eine Karte, sodass die Teams effizient und rechtzeitig bewässern.",
+  "shadeNeeded": "Schatten dort, wo Menschen ihn brauchen: Wir quantifizieren die Schattenabdeckung nach Tageszeit und Saison mit 3D-Oberflächenmodellen. Planen Sie Bäume und Strukturen, wo der Komfort am höchsten ist, insbesondere entlang von Fußwegen und Spielbereichen.",
+  "treeCanopy": "Baumkronen & Vitalität: Stadtweite Kronen- und Gesundheitsindikatoren helfen bei der Planung von Schnitt und Neupflanzung, mit optionaler Analyse pro Baum aus Satellitenbildern. Überwachen Sie Sturmschäden und Erholung mit konsistenten Metriken.",
+  "riverCorridor": "Flusskorridor-Management: Verfolgen Sie den Zustand der Ufervegetation und die Wasserqualität, um die Wiederherstellung gezielt zu steuern. Kombinieren Sie EO mit lokalen Erhebungen für glaubwürdige und reproduzierbare Berichte.",
+  "playfields": "Spielfelder in Top-Zustand: Verwenden Sie Stress-Indizes und Bewässerungszeiten, um sicheren, widerstandsfähigen Rasen zu erhalten. Schließen Sie Sperrungen und ungleichmäßigen Verschleiß mit evidenzbasierter Planung aus.",
+  "euCompliance": "EU Nature Restoration Compliance: Automatisieren Sie die Quantifizierung von Grünflächen, die Veränderungserkennung und Biodiversitätsindikatoren, die die NRL-Anforderungen unterstützen. Exportfertige Karten und Daten.",
+  "droughtReadiness": "Dürrebereitschaft: Erkennen Sie Vegetation, die Stress zeigt, bevor sie braun wird. Lenken Sie Mulch, Bewässerung und Artenersatzbudget dorthin, wo Verluste verhindert werden können.",
+  "equityCooling": "Gerechte Kühlung: Kombinieren Sie Exposition mit demografischen Schichten, um faire Kühlstrategien zu entwerfen. Überprüfen Sie, ob Investitionen das Risiko in prioritären Vierteln verringern.",
+  "greeningDevelopments": "Begrünung neuer Entwicklungen: Überprüfen Sie die Ergebnisse nach dem Bau: Kronenziele, Schatten zu Spitzenzeiten und Nettozuwächse der Grünflächen mit transparenten EO-Daten.",
+
+  "heatWaterMonitoring": "Überwachung von Wärme & Wasser",
+  "smartIrrigation": "Intelligente Bewässerung",
+  "euNatureCompliance": "EU-Naturschutz-Compliance"
 }
