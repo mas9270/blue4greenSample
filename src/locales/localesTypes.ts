@@ -43,4 +43,6 @@ export interface Translations {
   heatWaterMonitoring: string;
   smartIrrigation: string;
   euNatureCompliance: string;
+
+  goToPortal: string;
 }

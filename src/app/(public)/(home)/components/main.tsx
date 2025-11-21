@@ -7,7 +7,7 @@ import { Pagination, Navigation, Autoplay } from 'swiper/modules';
 import { useLanguageStore } from "@/hooks/useLanguageStore";
 import Image from "next/image";
 import { useState } from "react";
-
+import Link from "next/link";
 
 export default function Main() {
     return (
@@ -413,6 +413,35 @@ function DataAndViewerBlue4Green() {
                         >
                             {translate("dataViewerCredentials")}
                         </Typography>
+                        <Box
+                            sx={{
+                                display: "inline-block",
+                                bgcolor: theme.palette.mode === "dark" ? "primary.dark" : "primary.light",
+                                px: 3,
+                                py: 1,
+                                borderRadius: 3,
+                                transition: "all 0.3s ease",
+                                "&:hover": {
+                                    transform: "scale(1.05)",
+                                    bgcolor: theme.palette.mode === "dark" ? "primary.main" : "primary.main",
+                                    boxShadow: theme.shadows[4],
+                                },
+                            }}
+                        >
+                            <Link href="/applications" style={{ textDecoration: "none" }}>
+                                <Typography
+                                    variant="subtitle1"
+                                    sx={{
+                                        color: theme.palette.mode === "dark" ? "#fff" : "#000",
+                                        fontWeight: 600,
+                                        textAlign: "center",
+                                    }}
+                                >
+                                    {translate("goToPortal")}
+                                </Typography>
+                            </Link>
+                        </Box>
+
                     </Box>
                     <Box
                         sx={{
