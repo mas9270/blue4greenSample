@@ -158,14 +158,14 @@ export default function Header() {
                     <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
                         <ThemeSelector />
                         <LanguageSelector />
+                        {isMdDown && (
+                            <IconButton onClick={toggleDrawer(true)}>
+                                <MenuIcon />
+                            </IconButton>
+                        )}
                     </Box>
 
                     {/* Drawer */}
-                    {isMdDown && (
-                        <IconButton onClick={toggleDrawer(true)}>
-                            <MenuIcon />
-                        </IconButton>
-                    )}
                     <Drawer anchor={isRtl ? "right" : "left"} open={drawerOpen} onClose={toggleDrawer(false)}>
                         {drawerContent}
                     </Drawer>
