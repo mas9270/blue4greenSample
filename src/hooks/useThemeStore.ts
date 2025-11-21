@@ -1,3 +1,4 @@
+"use client"
 import { create } from "zustand";
 
 type ThemeMode = "light" | "dark" | null;

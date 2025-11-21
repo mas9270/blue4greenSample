@@ -1,3 +1,4 @@
+"use client"
 // src/store/useLanguageStore.ts
 import { create } from "zustand";
 import enJson from "../locales/en.json";

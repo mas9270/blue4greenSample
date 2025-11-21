@@ -4,5 +4,20 @@
   "about": "About",
   "error404": "404",
   "pageNotFound": "Oops! The page you are looking for does not exist.",
-  "goBackHome": "Go Back Home"
+  "goBackHome": "Go Back Home",
+  "welcomeText": "Welcome to Blue4Green",
+  "satelliteInfo": "Our website is dedicated to the processing and analysis of satellite data.",
+  "aboutB4G": "About Blue 4 Green",
+  "subtitleB4G": "Smarter care for parks, trees, and water bodies, powered by satellites.",
+  "paragraph1B4G": "Blue4Green blends Earth Observation with your local data to monitor heat, water quality, shade, irrigation needs, and vegetation health.",
+  "paragraph2B4G": "Our simple dashboard and alerts help city teams act sooner, meet EU Nature Restoration Law goals, and show real impact.",
+  "quickDataTitle": "Quick Data Rundown",
+  "heatAnalysis": "Heat Analysis: Citywide maps of land-surface temperature with modelled air temperature, heat-stress risk, UV guidance, and historical trends to track progress and target cooling actions.",
+  "waterQuality": "Water Quality: Satellite-driven indicators for chlorophyll-a, blue-green algal bloom risk, turbidity, Secchi disk depth, and surface temperature, delivered as status, trends, and alerts for lakes and slow rivers.",
+  "shadeMapping": "Shade Mapping: Time-of-day and seasonal shade coverage across parks, streets, and buildings to guide planting, canopies, and comfort routes.",
+  "treeIntelligence": "Tree Intelligence: Individual tree detection where imagery supports it; canopy cover mapping from satellites city-wide.",
+  "irrigation": "Irrigation: Zone-level recommendations (≈3 m pixels) that combine vegetation stress via evapotranspiration, weather, and local context to keep green assets healthy.",
+  "resilience": "Resilience: Vegetation vitality and drought-pressure indices to flag at-risk areas and monitor recovery.",
+  "euNatureLaw": "EU Nature Restoration Law: Consistent change detection, green-area accounting, biodiversity management, and exportable indicators to support reporting and compliance."
+
 }

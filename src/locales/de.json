@@ -4,5 +4,19 @@
   "about": "Über",
   "error404": "404",
   "pageNotFound": "Ups! Die gesuchte Seite existiert nicht.",
-  "goBackHome": "Zurück zur Startseite"
+  "goBackHome": "Zurück zur Startseite",
+  "welcomeText": "Willkommen bei Blue4Green",
+  "satelliteInfo": "Unsere Website ist der Verarbeitung und Analyse von Satellitendaten gewidmet.",
+  "aboutB4G": "Über Blue 4 Green",
+  "subtitleB4G": "Intelligente Pflege für Parks, Bäume und Gewässer, unterstützt durch Satelliten.",
+  "paragraph1B4G": "Blue4Green kombiniert Erdbeobachtung mit Ihren lokalen Daten, um Wärme, Wasserqualität, Schatten, Bewässerungsbedarf und Vegetationsgesundheit zu überwachen.",
+  "paragraph2B4G": "Unser einfaches Dashboard und Benachrichtigungen helfen den Stadtteams, schneller zu handeln, die Ziele des EU-Gesetzes zur Wiederherstellung der Natur zu erreichen und echte Auswirkungen zu zeigen.",
+  "quickDataTitle": "Schneller Datenüberblick",
+  "heatAnalysis": "Wärmeanalyse: Stadtweite Karten der Bodentemperatur mit modellierter Lufttemperatur, Hitzestress-Risiko, UV-Anleitungen und historischen Trends, um Fortschritte zu verfolgen und Kühlmaßnahmen gezielt einzusetzen.",
+  "waterQuality": "Wasserqualität: Satellitengestützte Indikatoren für Chlorophyll-a, Risiko von Blaualgenblüten, Trübung, Secchi-Scheibentiefe und Oberflächentemperatur, dargestellt als Status, Trends und Warnungen für Seen und langsam fließende Flüsse.",
+  "shadeMapping": "Schattenkartierung: Tageszeit- und saisonale Schattenabdeckung über Parks, Straßen und Gebäude, um Pflanzungen, Überdachungen und komfortable Wege zu planen.",
+  "treeIntelligence": "Baum-Intelligenz: Einzelbaumerkennung, wo Bildmaterial dies unterstützt; Stadtweite Erfassung der Baumkronenabdeckung mittels Satelliten.",
+  "irrigation": "Bewässerung: Empfehlungen auf Zonenniveau (≈3 m Pixel), die Vegetationsstress über Evapotranspiration, Wetter und lokalen Kontext kombinieren, um Grünflächen gesund zu halten.",
+  "resilience": "Resilienz: Vegetationsvitalität und Dürrerisiko-Indizes zur Kennzeichnung gefährdeter Bereiche und zur Überwachung der Erholung.",
+  "euNatureLaw": "EU-Naturschutzgesetz: Konsistente Veränderungserkennung, Grünflächenbuchhaltung, Biodiversitätsmanagement und exportierbare Indikatoren zur Unterstützung von Berichterstattung und Compliance."
 }
