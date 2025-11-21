@@ -9,6 +9,7 @@ import ThemeSelector from "@/components/themeSelector/themeSelector";
 import { useLanguageStore } from "@/hooks/useLanguageStore";
 import Image from "next/image";
 import MenuIcon from '@mui/icons-material/Menu';
+import { useRouter } from "next/navigation";
 
 export default function Header() {
     const { translate } = useLanguageStore();
@@ -17,7 +18,7 @@ export default function Header() {
     const isMdDown = useMediaQuery(theme.breakpoints.down('md'));
     const isRtl = theme.direction === "rtl";
     const [drawerOpen, setDrawerOpen] = React.useState(false);
-
+    const router = useRouter();
     const toggleDrawer = (open: boolean) => () => {
         setDrawerOpen(open);
     };
@@ -68,10 +69,14 @@ export default function Header() {
                 <div className="w-full max-w-6xl flex justify-between items-center">
 
                     {/* لوگو و لینک‌ها */}
-                    <Box sx={{ display: 'flex', alignItems: 'center', gap: 3 }}>
+                    <Box
+                        sx={{ display: 'flex', alignItems: 'center', gap: 3, cursor: "pointer" }}
+                        onClick={() => { router.push("/") }}
+                    >
                         <Box sx={{ display: "flex", gap: 1, alignItems: 'center' }}>
                             <Image
-                                src="https://aerius-images.s3.amazonaws.com/static/images/esa.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZN5JZY4GWRCCO5WT%2F20251121%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20251121T073502Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=8eb7a3ea688302928d82837a7c234a262a05f8663e36f22cf2f4df8395f9b62e"
+                                src="/esa.webp" // فقط مسیر از public
+                                // src="https://aerius-images.s3.amazonaws.com/static/images/esa.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZN5JZY4GWRCCO5WT%2F20251121%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20251121T073502Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=8eb7a3ea688302928d82837a7c234a262a05f8663e36f22cf2f4df8395f9b62e"
                                 alt="logo"
                                 width={50}
                                 height={30}
