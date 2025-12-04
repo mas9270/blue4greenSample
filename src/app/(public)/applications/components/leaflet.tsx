@@ -124,6 +124,7 @@ export default function Leaflet({ mapHeight = 600 }: MapWithToolsProps) {
                     mx: 8
                 }}
             >
+                
                 <Typography variant="subtitle2" sx={{ mr: 2 }}>
                     Select Active Tool:
                 </Typography>
