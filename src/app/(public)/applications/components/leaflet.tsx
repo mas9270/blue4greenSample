@@ -148,7 +148,7 @@ export default function Leaflet({ mapHeight = 600 }: MapWithToolsProps) {
             {/* نقشه */}
             <MapContainer
                 center={[20, 0]}
-                zoom={2}
+                zoom={5}
                 style={{ height: mapHeight, width: "100%" }}
                 worldCopyJump
             >
