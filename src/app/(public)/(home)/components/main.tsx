@@ -1,6 +1,6 @@
 
 "use client"
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import { Box, Grid, Typography, useTheme, CircularProgress, Divider } from "@mui/material";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation, Autoplay } from 'swiper/modules';
@@ -8,23 +8,54 @@ import { useLanguageStore } from "@/hooks/useLanguageStore";
 import Image from "next/image";
 import { useState } from "react";
 import Link from "next/link";
+import { motion } from "framer-motion";
+import Earth2 from "../../applications/components/earth2";
+import Earth1 from "../../applications/components/earth1";
 
 export default function Main() {
     return (
-        <div className='w-full flex justify-center flex-1 py-1 px-6' >
+        <div className='w-full flex justify-center flex-1 py-1 px-6 relative' >
+            <Earth1 />
             <div className='w-full max-w-6xl'>
-                <TextSlider />
-                <Section1 />
-                <Divider sx={{ my: 7 }} />
-                <AboutBlue4Green />
-                <Divider sx={{ my: 7 }} />
-                <QuickDataRundown />
-                <Divider sx={{ my: 7 }} />
-                <DataAndViewerBlue4Green />
-                <Divider sx={{ my: 7 }} />
-                <DiscoverUseCases />
-                <Divider sx={{ my: 7 }} />
-                <CollabSection />
+
+                <MitionItem>
+                    <TextSlider />
+                </MitionItem>
+                <MitionItem>
+                    <Section1 />
+                </MitionItem>
+                <MitionItem>
+                    <Divider sx={{ my: 7 }} />
+                </MitionItem>
+                <MitionItem>
+                    <AboutBlue4Green />
+                </MitionItem>
+                <MitionItem>
+                    <Divider sx={{ my: 7 }} />
+                </MitionItem>
+                <MitionItem>
+                    <QuickDataRundown />
+                </MitionItem>
+                <MitionItem>
+                    <Divider sx={{ my: 7 }} />
+                </MitionItem>
+                <MitionItem>
+                    <DataAndViewerBlue4Green />
+                </MitionItem>
+                <MitionItem>
+                    <Divider sx={{ my: 7 }} />
+                </MitionItem>
+                <MitionItem>
+                    <DiscoverUseCases />
+                </MitionItem>
+                <MitionItem>
+                    <Divider sx={{ my: 7 }} />
+                </MitionItem>
+                <MitionItem>
+                    <CollabSection />
+                </MitionItem>
+
+
             </div>
         </div>
     )
@@ -672,4 +703,29 @@ function CollabSection() {
             </Box>
         </Box>
     );
+}
+
+function MitionItem({ children }: { children: React.ReactNode }) {
+
+    return (
+        <motion.div
+            variants={{
+                hidden: { opacity: 0, y: 30 },
+                visible: {
+                    opacity: 1,
+                    y: 0,
+                    transition: {
+                        duration: 0.6,
+                        ease: "easeOut",
+                    },
+                },
+            }}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.3 }}
+        >
+            {children}
+        </motion.div>
+
+    )
 }

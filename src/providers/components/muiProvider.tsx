@@ -72,7 +72,19 @@ function themeConfig(theme: "dark" | "light", direction: "rtl" | "ltr") {
     })
     : createTheme({
       direction,
-      palette: { mode: "light", divider: "rgba(0, 0, 0, 0.12)" },
+      palette: {
+        mode: "light",
+        background: {
+          default: "#f8faff", // سفید با ته‌رنگ خیلی ملایم آبی
+          paper: "#ffffff",
+        },
+        primary: {
+          main: "#1976d2", // آبی MUI اصلی، برای دکمه‌ها و لینک‌ها
+        },
+        secondary: {
+          main: "#1565c0", // آبی تیره‌تر برای تاکید
+        },
+      },
     });
 
   // اضافه کردن استایل Scrollbar سفارشی
